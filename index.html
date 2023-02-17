@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script src="code.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+        
+    </head>
+
+    <body>
+        <div class = "scoreBoard">
+            <h1>Reversi</h1>
+            <span style="text-align:center; font-weight:bold">Scores</span>
+            <br><br>
+            <span id= "scoreBlackId" class="label scoreBlack" style="color:black">0</span>
+            <span id= "scoreWhiteId" class="label scoreWhite" style="color:white">0</span>
+        </div>
+        <br>
+        <br>
+        <div id="board_container"></div>
+        <br>
+        <br>
+        <div class = "TimeTaken">
+            <span style="text-align:center; font-weight:bold">Total Time Taken</span>
+            <br><br>
+            <span id= "timeTakenId" class="timeLabel time">0 Sec</span>
+            <br><br>
+            <button onclick="newgame()">New Game</button>
+        </div>
+    </body>
+</html>
